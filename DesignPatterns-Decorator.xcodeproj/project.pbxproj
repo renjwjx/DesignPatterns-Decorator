@@ -12,6 +12,10 @@
 		EE3C43F0209E8CA7007B56DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3C43EF209E8CA7007B56DC /* Assets.xcassets */; };
 		EE3C43F3209E8CA7007B56DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3C43F1209E8CA7007B56DC /* Main.storyboard */; };
 		EE3C43F6209E8CA7007B56DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C43F5209E8CA7007B56DC /* main.m */; };
+		EE3C43FF209E8CBE007B56DC /* VisualComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C43FE209E8CBE007B56DC /* VisualComponent.m */; };
+		EE3C4402209E8CE4007B56DC /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C4401209E8CE4007B56DC /* Decorator.m */; };
+		EE3C4405209E90C3007B56DC /* BorderDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C4404209E90C3007B56DC /* BorderDecorator.m */; };
+		EE3C4408209E92ED007B56DC /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C4407209E92ED007B56DC /* Window.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,14 @@
 		EE3C43F4209E8CA7007B56DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE3C43F5209E8CA7007B56DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE3C43F7209E8CA7007B56DC /* DesignPatterns_Decorator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesignPatterns_Decorator.entitlements; sourceTree = "<group>"; };
+		EE3C43FD209E8CBE007B56DC /* VisualComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualComponent.h; sourceTree = "<group>"; };
+		EE3C43FE209E8CBE007B56DC /* VisualComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualComponent.m; sourceTree = "<group>"; };
+		EE3C4400209E8CE4007B56DC /* Decorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
+		EE3C4401209E8CE4007B56DC /* Decorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
+		EE3C4403209E90C3007B56DC /* BorderDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BorderDecorator.h; sourceTree = "<group>"; };
+		EE3C4404209E90C3007B56DC /* BorderDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorderDecorator.m; sourceTree = "<group>"; };
+		EE3C4406209E92ED007B56DC /* Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		EE3C4407209E92ED007B56DC /* Window.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Window.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,14 @@
 		EE3C43E8209E8CA7007B56DC /* DesignPatterns-Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				EE3C43FD209E8CBE007B56DC /* VisualComponent.h */,
+				EE3C43FE209E8CBE007B56DC /* VisualComponent.m */,
+				EE3C4400209E8CE4007B56DC /* Decorator.h */,
+				EE3C4401209E8CE4007B56DC /* Decorator.m */,
+				EE3C4403209E90C3007B56DC /* BorderDecorator.h */,
+				EE3C4404209E90C3007B56DC /* BorderDecorator.m */,
+				EE3C4406209E92ED007B56DC /* Window.h */,
+				EE3C4407209E92ED007B56DC /* Window.m */,
 				EE3C43E9209E8CA7007B56DC /* AppDelegate.h */,
 				EE3C43EA209E8CA7007B56DC /* AppDelegate.m */,
 				EE3C43EC209E8CA7007B56DC /* ViewController.h */,
@@ -141,8 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE3C43EE209E8CA7007B56DC /* ViewController.m in Sources */,
+				EE3C4408209E92ED007B56DC /* Window.m in Sources */,
+				EE3C4405209E90C3007B56DC /* BorderDecorator.m in Sources */,
 				EE3C43F6209E8CA7007B56DC /* main.m in Sources */,
 				EE3C43EB209E8CA7007B56DC /* AppDelegate.m in Sources */,
+				EE3C43FF209E8CBE007B56DC /* VisualComponent.m in Sources */,
+				EE3C4402209E8CE4007B56DC /* Decorator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
